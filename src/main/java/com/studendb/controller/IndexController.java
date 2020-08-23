@@ -9,6 +9,21 @@ public class IndexController {
 
     @GetMapping("/")
     public String index(final Model model){
+
         return "index";
+    }
+
+
+    @GetMapping("/addStudent")
+    public String addStudent(final Model model){
+
+        return "addStudent";
+    }
+
+
+    @GetMapping("/rider")
+    public String rider(final Model model){
+
+        return "rider";
     }
 }
